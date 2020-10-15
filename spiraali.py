@@ -5,7 +5,8 @@ def draw_spiral(color, arcs, r, r_growth, pen):
     pensize(pen)
     down()
     for i in arcs:
-
+        circle(r,90)
+        r+=r_growth
     up()
 
 draw_spiral("black", 20, 10, 3)
